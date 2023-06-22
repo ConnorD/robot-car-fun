@@ -32,9 +32,9 @@ fn main() -> ! {
 
     loop {
         right_motor_dir1.toggle();
-        right_motor_dir2.toggle();
         left_motor_dir1.toggle();
-        left_motor_dir2.toggle();
         arduino_hal::delay_ms(1000);
+        right_motor_dir2.toggle();
+        left_motor_dir2.toggle();
     }
 }

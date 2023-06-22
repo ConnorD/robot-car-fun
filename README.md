@@ -1,7 +1,7 @@
 rust-osoyoo-car
 ===============
 
-Rust project for the _Arduino Uno_.
+As a fun learning experiment, I recently purchased [a basic Arduino-controlled robot car kit on Amazon](https://www.amazon.com/gp/product/B08DHRLJ1N/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). 
 
 ## Build Instructions
 1. Install prerequisites as described in the [`avr-hal` README] (`avr-gcc`, `avr-libc`, `avrdude`, [`ravedude`]).
